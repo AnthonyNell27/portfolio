@@ -46,18 +46,17 @@ export const Projects = () => {
         >
           <motion.div
             className="project-image"
-            style={{ backgroundImage: "url('/projects/meow1.jpeg')" }}
+            style={{ backgroundImage: "url('/projects/portfolio.png')" }}
             whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
           />
-          <h3> AI SaaS Platform</h3>
+          <h3> Modern & Minimalist Personal Portfolio </h3>
           <p>
-            A modern SaaS platform built with Next.js and OpenAI integration,
-            featuring real-time AI-powered content generation and analytics.
+            A fast, responsive personal portfolio built with Vite, React.js, and Tailwind CSS, showcasing projects, skills, and contact details in a clean, modern design optimized for performance.
           </p>
           <div className="project-tech">
-            <span>Next.js</span>
-            <span>OpenAI</span>
+            <span>React</span>
             <span>TailwindCSS</span>
+            <span>Vite</span>
           </div>
         </motion.div>
 
@@ -69,20 +68,19 @@ export const Projects = () => {
           <motion.div
             className="project-image"
             style={{
-              backgroundImage: "url('/projects/meow2.jpg')",
+              backgroundImage: "url('/projects/movie.png')",
             }}
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
           />
-          <h3>Social Media Dashboard</h3>
+          <h3>Movie Discovery Web Application</h3>
           <p>
-            A comprehensive social media management dashboard with analytics,
-            scheduling, and engagement tracking features.
+            A responsive movie discovery web app built with Vite, React.js, and Tailwind CSS, featuring real-time search, trending titles, and a modern dark-themed UI for effortless film exploration.
           </p>
           <div className="project-tech">
             <span>React</span>
-            <span>Node.js</span>
-            <span>MongoDB</span>
+            <span>TailwindCSS</span>
+            <span>Vite</span>
           </div>
         </motion.div>
 
@@ -94,19 +92,18 @@ export const Projects = () => {
           <motion.div
             className="project-image"
             style={{
-              backgroundImage: "url('/projects/meow3.jpg')",
+              backgroundImage: "url('/projects/sms.png')",
             }}
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
           />
-          <h3>Productivity Timer</h3>
+          <h3>Student Management System — Admin Dashboard</h3>
           <p>
-            A sleek productivity timer application with customizable work
-            sessions, statistics tracking, and dark mode support.
+            A full-featured Student Management System built with React.js and Tailwind CSS, featuring an intuitive admin dashboard for managing user accounts, roles, and audit logs with light/dark mode support.
           </p>
           <div className="project-tech">
             <span>React</span>
-            <span>TypeScript</span>
+            <span>HTML•CSS</span>
             <span>TailwindCSS</span>
           </div>
         </motion.div>

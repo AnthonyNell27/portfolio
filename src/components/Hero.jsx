@@ -43,10 +43,10 @@ export const Hero = () => {
                 </motion.h1>
                 <motion.h2 className="hero-subtitle" variants={fadeInUp} >
                     {" "}
-                    Full-Stack Developer
+                    Front-End Developer
                 </motion.h2>
                 <motion.p className="hero-description" variants={fadeInUp}>
-                    As a passionate Computer Science graduate, I want to be known as a developer who builds solutions that are both functional and meaningful. Throughout my projects i have learned the value of clean, user-centered design and teamwork in solving real problems. I aim to bring adaptability, attention to detail, and a growth mindset to every team I work with while continuously improving my skills.
+                  I want to be known as a developer who builds solutions that are both functional and meaningful. Throughout my projects i have learned the value of clean, user-centered design and teamwork in solving real problems. I aim to bring adaptability, attention to detail, and a growth mindset to every team I work with while continuously improving my skills.
 
                 </motion.p>
 
@@ -103,10 +103,10 @@ export const Hero = () => {
                     {`const aboutMe: DevProfile = {
   codename: "AnthonyNell",
   origin: "Based in the Philippines, Building for the W🌍rld",
-  role: "Full-Stack Developer",
+  role: "Front-End Developer",
   stack: {
-    languages: ["JavaScript" and "TypeScript"],
-    frameworks: ["React", "Next.js", "TailwindCSS", "Supabase"],
+    languages: ["HTML•CSS" & "JavaScript"],
+    frameworks: ["TailwindCSS" & "React"],
   },
   traits: [
     "fueled by caffeine and curiosity",
