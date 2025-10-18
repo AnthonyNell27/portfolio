@@ -46,7 +46,10 @@ export const Projects = () => {
         >
           <motion.div
             className="project-image"
-            style={{ backgroundImage: "url('dist/projects/portfolio.png')" }}
+            style={{
+  backgroundImage: `url(${import.meta.env.BASE_URL}projects/portfolio.png)`
+}}
+
             whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
           />
           <h3> Modern & Minimalist Personal Portfolio </h3>
@@ -68,7 +71,7 @@ export const Projects = () => {
           <motion.div
             className="project-image"
             style={{
-              backgroundImage: "url('dist/projects/movie.png')",
+              backgroundImage: `url(${import.meta.env.BASE_URL}projects/movie.png)`
             }}
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
@@ -92,7 +95,7 @@ export const Projects = () => {
           <motion.div
             className="project-image"
             style={{
-              backgroundImage: "url('dist/projects/sms.png')",
+              backgroundImage: `url(${import.meta.env.BASE_URL}projects/sms.png)`
             }}
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
