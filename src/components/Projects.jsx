@@ -106,7 +106,7 @@ export const Projects = () => {
           </p>
           <div className="project-tech">
             <span>React</span>
-            <span>HTML•CSS</span>
+            <span>MySQL</span>
             <span>TailwindCSS</span>
           </div>
         </motion.div>
